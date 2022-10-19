@@ -5,7 +5,7 @@ import json
 
 def lambda_handler(event, context):
     """Sample pure Lambda function
-
+    
     Parameters
     ----------
     event: dict, required
@@ -33,6 +33,7 @@ def lambda_handler(event, context):
 
     #     raise e
 
+    print('hahahahahahaha')
     return {
         "statusCode": 200,
         "body": json.dumps({
