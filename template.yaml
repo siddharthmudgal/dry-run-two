@@ -26,6 +26,7 @@ Resources:
       CodeUri: hello_world/
       Handler: app.lambda_handler
       Runtime: python3.8
+      AutoPublishAlias: live
       Architectures:
       - x86_64
       Role: 'arn:aws:iam::128656805307:role/service-role/dryruntwoo-role-7w72g7oh'
